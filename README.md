@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/lysms/PersonalPage/blob/main/resources/img/logo.jpg" width="20%" title="lin-ys Logo">
+  <img src="https://github.com/lysms/PersonalPage/blob/main/resources/img/logo.png" width="30%" title="lin-ys Logo">
 </p>
 
 
