@@ -1,0 +1,139 @@
+*{
+    margin: 0.1em;
+}
+
+.section1{
+    clear: both;
+    background-image: linear-gradient(360deg, white, #CCFFCC); 
+}
+
+a:link{
+    text-decoration: none;
+}
+
+p.git{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+
+
+/* personal information */
+aside.right{
+    margin-top: 2em;
+}
+
+/* icon image*/
+.liny16{
+    border-radius: 50%;
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+}
+
+/* name and major*/
+aside.left {
+    margin-top: 2em;
+    margin-left: -1.2em;
+}
+
+p.name {
+    font-size: 210%;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+p.itws {
+    font-size: 140%;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+    line-height: 0.9em;
+}
+
+p.statement {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 0.2em;
+    margin: 0.5em;
+    padding: 5px;
+    color: black;
+    font-size: 102%;
+}
+
+/* Work Experience */
+div.exp{
+    margin: 1.3em;
+    padding: 2px;
+}
+
+
+h2.head{
+    border-bottom: 2px darkgreen solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+div.detail{
+    margin-top: 1.4em;
+    margin-left: 1em;
+}
+
+h3.department, h3.project{
+    display: block;
+    font-size: 1.15em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h6.date{
+    color: green;
+    padding-left: 20px;
+    margin-top: -0.5em;
+    line-height: 1.5em;
+    
+}
+
+/* skill section */
+div.skills{
+    margin: 1.3em;
+    padding: 2px;
+    margin-left: -0.5em;
+}
+
+ul.skill li {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 5px;
+    color: white;
+    background: #006633;
+}
+
+h5.org{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul.lists{
+    list-style-position: inside;
+    list-style: square;
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+/* project side */
+h3.project{
+    color: rgb(33, 120, 250);
+    font-size: 1.3em;
+}
